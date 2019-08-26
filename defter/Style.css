@@ -1,0 +1,99 @@
+/* Based on the original Style Sheet for the Chalet Theme for PHP-Fusion version 5.00
+Edited by Brimstone  - http:/www.lorkan.com/fusion - last updated 22-12-04 */
+
+/* The content of the posts (body of text) */
+
+body	{	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	padding:0px 0px 0px 0px;
+background-color: #606060; background-image: url('images/bkg.gif'); scrollbar-3dlight-color:#9EBFDF; scrollbar-arrow-color:#6985B5; scrollbar-darkshadow-color:#224891; scrollbar-face-color:#C8D3DE; scrollbar-highlight-color:#ffffff; scrollbar-shadow-color:#C8D3DE; scrollbar-track-color:#DEE0E2}
+
+
+td.cpic					{background-color: none; height:27px; background-image: url(images/cell.gif);}
+
+/* General page style */
+.bodyline		{background: #B1B8C4;color:#000000;border:0px solid #C1CDD2;}
+a			{color:#183562; text-decoration:none;font-weight:bold;}
+a:hover		{color:#FF8A00; text-decoration:none;}
+a.side		{color:#183562; text-decoration:none;}
+a:hover.side	{color:#FF8A00; text-decoration:none;}
+a.white		{color:#E8F4FF; text-decoration:none;font-weight:bold;}
+a:hover.white	{color:#FF8A00; text-decoration:none;}
+
+
+a.category:link		{font: 12px arial; color: #FFFFFF; height:17px;white-space:nowrap; text-decoration: none; font-weight:bold}
+a.category:active		{font: 12px arial; color: #FFFFFF; height:17px;white-space:nowrap; text-decoration: none; font-weight:bold}
+a.category:visited	{font: 12px arial; color: #FFFFFF; height:17px;white-space:nowrap; text-decoration: none; font-weight:bold}
+a.category:hover		{font: 12px arial; color: #E73100; height:17px;white-space:nowrap; text-decoration: none; font-weight:bold}
+
+
+
+form			{margin:0px 0px 0px 0px;}
+hr				{border-top: 1px solid #94A0B3; border-bottom: 1px solid #E0E3E8; background-color: transparent; height: 2px;width: 100%;}
+hr.side-hr {border-top: 1px solid #94A0B3; border-bottom: 1px solid #E0E3E8; background-color: transparent; height: 2px;width: 100%;}
+td			{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;}
+pre			{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:9px;}
+.alt			{color:#1C1C1C;}
+.white-header	{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px; color:#444;background-color:#62784C; 
+			padding:4px; border-top:#6D7F98 1px solid; border-bottom:#6D7F98 1px solid;}
+
+.full-header	{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px; color:#111;background-color:#62784C;}
+.button		{background:#DEE4E8;color: #1E76B4; font: bold 10px Verdana, Arial, Helvetica, sans-serif; border-top: solid #BFBFBF; border-top-width: 1px; border-left: solid #BFBFBF; border-left-width: 1px; border-right: solid #FFFFFF; border-right-width: 1px; border-bottom: solid #FFFFFF; border-bottom-width: 1px;}
+	
+.textbox		{background-color:#EDEDED;color: #000000; font: normal 10px Verdana, Arial, Helvetica, sans-serif; border-top: solid #BFBFBF; border-top-width: 1px; border-left: solid #BFBFBF; border-left-width: 1px; border-right: solid #FFFFFF; border-right-width: 1px; border-bottom: solid #FFFFFF; border-bottom-width: 1px;}
+.visits		{color:#183562; text-decoration:none; FONT-WEIGHT: bold;font-size:10px;}
+.main-body		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:11px; color:#183562; background-color:#CED5E0; padding:3px 4px 3px 4px;}
+.side-body		{font-size:10px; color:#0C1500; padding:4px 4px 6px 4px;}
+.main-bg		{background-color:#B1B8C4;}
+.border		{border-width:0px 1px 1px 1px;border-color:#6D7F98;border-style:solid;}
+.border1		{border-width:1px 1px 1px 1px;border-color:#6D7F98;border-style:solid;}
+
+.news-footer	{font-size:10px;font-weight:normal; color:#000000; background-image: url(images/stripe.gif);background-color:#CCCCCC; padding:4px 4px 4px 4px;}
+.capmain		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;font-weight:bold; 
+			border-width:1px 1px 1px 1px;border-color:#6D7F98;border-style:solid; 
+			color:#FFFDF0; height:22px; padding:2px 2px 2px 2px;}
+
+.copyrights		{background: none; COLOR: #FFFDF0; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.title			{BACKGROUND: none; COLOR: #E8F4FF; FONT-SIZE: 11px; FONT-WEIGHT: bold; FONT-FAMILY: Tahoma, Verdana, Helvetica; TEXT-DECORATION: none}
+.block-title	{BACKGROUND: none; COLOR: #E8F4FF; FONT-SIZE: 10px; FONT-WEIGHT: bold; height:14px;white-space:nowrap; FONT-FAMILY: Verdana, Helvetica}
+.block-news		{BACKGROUND: none; COLOR: #E8F4FF; FONT-SIZE: 10px; FONT-WEIGHT: bold; height:14px;white-space:nowrap; FONT-FAMILY: Verdana, Helvetica}
+.head-title 	{background: none; COLOR: #E8F4FF; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.date			{background: none; COLOR: #E8F4FF; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+img			{border: 0px;}
+.capleft		{width:2px;height:20px;}
+.capright		{width:2px;height:20px;}
+.scapmain		{font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:10px;font-weight:bold; color:#000; height:19px; padding:0px 2px 0px 2px;
+			border-width:1px 0px 1px 0px;border-color:#6D7F98 #6D7F98 #6D7F98 #6D7F98;border-style:solid;}
+
+.tbl-border		{background-color:#6D7F98;}
+.tbl			{font-size:11px; padding:3px 4px 3px 4px;}
+.tbl1			{font-size:11px; color:#373737; background-color:#D1D6DE; padding:4px;}
+.tbl2			{font-size:11px; color:#373737; background-color:#DCDEE2; padding:4px;}
+
+/* Forum header*/
+.forum-caption	{font-size:10px;font-weight:bold; color:#E8F4FF;background-color:#ECF0F6; height:22px; padding:0px 4px 2px 4px;
+			background-image:url(images/cellpic3.gif);background-repeat:repeat-x;border-width:0px 0px 0px 0px;border-color:#6D7F98 #6D7F98 #6D7F98 #6D7F98;border-style:solid;}
+
+/* Quote blocks */
+.quote		{color:#006600;background-color:#FAFAFA; padding:2px;	margin:0px 20px 0px 20px; border:1px #6D7F98 solid;}
+
+/* Voting Poll */
+.poll			{height:12px; border:1px #025E8D solid;}
+.comment-name	{font-weight:bold; color:#506481;}
+
+/* This is for the Shoutbox */
+.shoutboxname	{font-weight:bold; color:#007090;}
+.shoutbox		{color:#06070A;}
+.shoutboxdate	{font-size:9px; color:#1C1C1C;}
+.shoutboxhelp	{font-size:9px; color:#575757; text-align:right;}
+
+.small		{font-size:11px; font-weight:normal;}
+.small2		{font-size:10px; font-weight:normal; color:#1C1C1C;}
+.side-small		{font-size:9px; font-weight:normal; color:#111111;}
+.side-label		{background-color:none; font-weight:normal; color:#036497; padding:2px;}
+
+/* This is for the Photo Gallery */
+.gallery		{padding: 16px 0px 8px 0px;}
+.gallery img	{border: 1px solid #6D7F98; filter: gray;}
+.gallery:hover img	{border: 1px solid #2D70A3; filter: none;}
+img.activegallery	{border: 1px solid #6D7F98; filter: none;}
